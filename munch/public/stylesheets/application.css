@@ -1,7 +1,7 @@
 body {
-  background-color: #4B7399;
+  background-color: #3c3941;
   font-family: Verdana, Helvetica, Arial;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 a img {
@@ -9,7 +9,7 @@ a img {
 }
 
 a {
-  color: #0000FF;
+  color: #252b1b;
 }
 
 .clear {
@@ -21,9 +21,9 @@ a {
 #container {
   width: 75%;
   margin: 0 auto;
-  background-color: #FFF;
+  background-color: #cca6f5;
   padding: 20px 40px;
-  border: solid 1px black;
+  border: solid 1px #c1b56a;
   margin-top: 20px;
 }
 
@@ -38,7 +38,7 @@ a {
 }
 
 #flash_notice {
-  background-color: #CFC;
+  background-color: #c4e1c4;
   border: solid 1px #6C6;
 }
 
@@ -77,4 +77,8 @@ a {
 
 .error_messages ul {
   margin: 0;
+}
+#user_nav {
+    float: right;
+    font-size: 12px;
 }
