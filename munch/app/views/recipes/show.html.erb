@@ -1,0 +1,22 @@
+<% title "Recipe" %>
+
+<p>
+  <strong>Recipe Name</strong>
+  <%= @recipe.recipe_name %>
+</p>
+<p>
+  <strong>Recipe Type</strong>
+  <%= @recipe.recipe_type %>
+</p>
+<p>
+  <strong>Ingredients</strong>
+  <%= @recipe.ingredients %>
+</p>
+<p>
+  <strong>Description</strong>
+  <%= @recipe.description %>
+</p>
+<p>
+  <%= link_to "Edit", edit_recipe_path(@recipe) %> |
+  <%= link_to "Destroy", @recipe, :confirm => 'Are you sure?', :method => :delete %>
+</p>

@@ -1,0 +1,21 @@
+<%= form_for @recipe do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :Recipe %><br />
+    <%= f.text_field :recipe_name %>
+  </p>
+  <p>
+    <%= f.label :Type %><br />
+    <%= f.text_field :recipe_type %>
+  </p>
+  <p>
+    <%= f.label :Ingredients %><br />
+    <%= f.text_field :ingredients %>
+  </p>
+  <p>
+    <%= f.label :Description %><br />
+    <%= f.text_field :description %><br />
+  </p>
+
+  <p><%= f.submit "Submit" %></p>
+<% end %>
